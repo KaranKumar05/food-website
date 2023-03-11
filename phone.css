@@ -1,0 +1,40 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar  ul li a{
+    font-size: 1rem;
+    padding: 0px  7px;
+}
+#home{
+    height: 280px;
+    padding: 3px 68px;
+}
+
+#home::before{
+    height: 400px;
+}
+#home p{
+    font-size: 0.8rem;
+}
+#services{
+    flex-direction: column;
+}
+
+
+
+.h-primary{
+    font-size: 2rem;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}
+@media screen and (max-width:570px) {
+#client-section{
+    height: 600px;
+
+}
+    
+    #clients{
+        flex-direction: column;
+    }
+}
